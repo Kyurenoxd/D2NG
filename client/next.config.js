@@ -11,6 +11,11 @@ const nextConfig = {
         hostname: 'static.wikia.nocookie.net',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+        pathname: '/**',
+      },
     ],
   },
 }

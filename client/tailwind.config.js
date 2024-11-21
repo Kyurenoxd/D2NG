@@ -43,14 +43,44 @@ module.exports = {
           '0%': { transform: 'translate(0, 0) scale(1)', opacity: '0' },
           '50%': { transform: 'translate(-10px, -10px) scale(1.2)', opacity: '1' },
           '100%': { transform: 'translate(-20px, -20px) scale(0)', opacity: '0' }
+        },
+        gradient: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+        'slide-down-out': {
+          '0%': { 
+            transform: 'translateY(0)',
+            opacity: 1
+          },
+          '100%': { 
+            transform: 'translateY(100%)',
+            opacity: 0
+          }
+        },
+        'slide-down-in': {
+          '0%': { 
+            transform: 'translateY(-100%)',
+            opacity: 0
+          },
+          '100%': { 
+            transform: 'translateY(0)',
+            opacity: 1
+          }
         }
       },
       animation: {
         shake: 'shake 0.5s ease-in-out infinite',
         'magic-particle-1': 'magic-particle-1 1.5s ease-in-out infinite',
         'magic-particle-2': 'magic-particle-2 1.5s ease-in-out infinite 0.2s',
-        'magic-particle-3': 'magic-particle-3 1.5s ease-in-out infinite 0.4s'
-      }
+        'magic-particle-3': 'magic-particle-3 1.5s ease-in-out infinite 0.4s',
+        gradient: 'gradient 8s ease infinite',
+        'slide-down-out': 'slide-down-out 0.5s ease-in-out forwards',
+        'slide-down-in': 'slide-down-in 0.5s ease-in-out forwards'
+      },
+      backgroundSize: {
+        '300%': '300%',
+      },
     },
   },
   plugins: [],
