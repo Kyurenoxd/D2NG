@@ -116,8 +116,4 @@ p, span, div {
     gap: 1.5rem;
     width: fit-content;
     animation: scroll 30s linear infinite;
-    
-    &:hover {
-      animation-play-state: paused;
-    }
   }
