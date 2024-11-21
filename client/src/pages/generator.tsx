@@ -1,6 +1,7 @@
+import React from 'react'
 import type { NextPage } from 'next'
-import Header from '@/components/Header'
-import NicknameGenerator from '@/components/NicknameGenerator'
+import Header from '../components/Header'
+import NicknameGenerator from '../components/NicknameGenerator'
 
 const GeneratorPage: NextPage = () => {
   return (
@@ -13,4 +14,4 @@ const GeneratorPage: NextPage = () => {
   )
 }
 
-export default GeneratorPage 
+export default GeneratorPage

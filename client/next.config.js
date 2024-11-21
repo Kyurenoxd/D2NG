@@ -5,7 +5,6 @@ const nextConfig = {
     includePaths: ['./src/styles'],
   },
   images: {
-    domains: ['static.wikia.nocookie.net'],
     remotePatterns: [
       {
         protocol: 'https',

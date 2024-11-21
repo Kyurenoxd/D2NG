@@ -19,4 +19,4 @@ const NicknameGenerator: React.FC = () => {
   )
 }
 
-export default NicknameGenerator 
+export default NicknameGenerator

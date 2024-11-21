@@ -4,7 +4,7 @@ import Link from 'next/link'
 const HomeHero: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center py-24 text-center">
-      <h1 className="text-6xl mb-6">
+      <h1 className="text-6xl mb-6 font-onest">
         Dota 2 Nickname Generator
       </h1>
       <p className="text-xl mb-12 max-w-2xl">
@@ -29,4 +29,4 @@ const HomeHero: React.FC = () => {
   )
 }
 
-export default HomeHero 
+export default HomeHero
